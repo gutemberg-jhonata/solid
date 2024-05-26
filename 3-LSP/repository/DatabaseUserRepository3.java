@@ -1,6 +1,6 @@
 package repository;
 
-public class DatabaseUserRepository2 implements UserRepository {
+public class DatabaseUserRepository3 implements UserRepository2 {
     
     public void save(String user) {
         // Add user to a database
