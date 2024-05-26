@@ -1,12 +1,12 @@
-import manager.Manager2;
-import manager.ProductManager2;
-import manager.UserManager2;
+import manager.Manager3;
+import manager.ProductManager3;
+import manager.UserManager3;
 
-public class Main2 {
+public class Main3 {
     
     public static void main(String[] args) {
-        Manager2 userManager = new UserManager2();
-        Manager2 productManager = new ProductManager2();
+        Manager3 userManager = new UserManager3();
+        Manager3 productManager = new ProductManager3();
         userManager.add("Jhon");
         userManager.delete("Jhon");
         productManager.add("Ice cream!");

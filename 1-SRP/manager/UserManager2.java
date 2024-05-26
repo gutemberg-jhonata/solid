@@ -4,7 +4,7 @@ import email.EmailService;
 import logger.ConsoleLogger;
 import repository.DatabaseUserRepository;
 
-public class UserManager2 implements Manager {
+public class UserManager2 implements Manager2 {
 
     private DatabaseUserRepository userRepository = new DatabaseUserRepository();
     private ConsoleLogger logger = new ConsoleLogger();

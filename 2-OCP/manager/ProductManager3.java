@@ -1,6 +1,6 @@
 package manager;
 
-public class ProductManager2 implements Manager2 {
+public class ProductManager3 implements Manager3 {
 
     @Override
     public void add(String product) {
